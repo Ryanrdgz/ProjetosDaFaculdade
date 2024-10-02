@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <form>
+        <label>Nome:</label>
+        <input type="text" required placeholder="Digite seu nome"> <br> <br>
+        <label>E-mail:</label>
+        <input type="e-mail" required placeholder="Digite seu e-mail"> <br> <br>
+        <label>Idade</label>
+        <input type="number" min="0" max="130"> <br> <br>
+        <label>sexo</label>
+        <input type="radio" name="sexopessoa" value="m">Masculino
+        <input type="radio" name="sexopessoa" value="f">feminino
+        <br> <br>
+        <label>Filmes Favoritos:</label> <br>
+        <input type="checkbox" name="tropa de elite"> Tropa de Elite <br>
+        <input type="checkbox" name="filme1"> Filme 01 <br>
+        <input type="checkbox" name="filme2"> Filme 02 <br>
+        <input type="checkbox" name="filme3"> Filme 03 <br> <br>
+        <label>Estado Civil:</label>
+        <select name="Estadocivil">
+            <option value="s">Solteiro</option>
+            <option value="c">Casado</option>
+            <option value="d">Divorciado</option>
+        </select> <br> <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Enviar"> <br> <br>
+    </form>
+</body>
+</html>
