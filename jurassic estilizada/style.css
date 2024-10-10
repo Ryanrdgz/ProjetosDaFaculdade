@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #123123;
+}
+
+.topo {
+    width: 700px;
+    height: 200px;
+    background-image: url("listronas.avif");
+    margin: auto;
+    padding: 13px;
+}
+
+.menu {
+    background-image: url("fosco.jpeg");
+    width: 300px;
+    height: 24px;
+    padding: 8px;
+    position: relative;
+    left: 250px;
+    top: -80px;
+    text-align: center;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    line-height: 22px;
+}
+
+.separação, .menulink {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.paginatitulo {
+    width: 727px;
+    height: 100px;
+    background-color: rgb(85, 15, 15);
+    text-align: center;
+    margin: auto;
+    line-height: 100px;
+}
+
+.paginatitulo {
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.filme1 {
+    background-color: white;
+    width: 727px;
+    height: 280px;
+    margin: auto;
+}
+
+.filmeposter1 {
+    border: 3px solid red;
+    float: left;
+    top: 40px;
+    position: relative;
+    left: 4px;
+}
+
+.filmetitulo1 {
+    left: 10px;
+    position: relative;
+    top: 45px;
+}
+
+.filmedescricao1 {
+    left: 10px;
+    position: relative;
+    top: 45px;
+    width: 700px;
+}
+
+.filme2{
+    background-color: rgb(78, 76, 76);
+    margin: auto;
+    width: 727px;
+    height: 280px;
+}
+
+.filmeposter2 {
+    border: 3px solid yellow;
+    float: right;
+    top: 40px;
+    position: relative;
+    right: 7px;
+}
+
+.filmetitulo2 {
+    left: 10px;
+    position: relative;
+    top: 45px;
+    color: white;
+}
+
+.filmedescricao2 {
+    left: 5px;
+    width: 550px;
+    position: relative;
+    top: 45px;
+    color: white;
+}
+
+.filme3 {
+    background-color: white;
+    width: 727px;
+    height: 280px;
+    margin: auto;
+}
+
+.filmeposter3 {
+    border: 3px solid red;
+    float: left;
+    top: 40px;
+    position: relative;
+    left: 4px;
+}
+
+.filmetitulo3 {
+    left: 10px;
+    position: relative;
+    top: 45px;
+}
+
+.filmedescricao3 {
+    left: 10px;
+    position: relative;
+    top: 45px;
+    width: 700px;
+}
+
+.filme4 {
+    background-color: rgb(78, 76, 76);
+    margin: auto;
+    width: 727px;
+    height: 280px;
+}
+
+.filmeposter4 {
+    border: 3px solid yellow;
+    float: right;
+    top: 40px;
+    position: relative;
+    right: 7px;
+}
+
+.filmetitulo4 {
+    left: 10px;
+    position: relative;
+    top: 45px;
+    color: white;
+}
+
+.filmedescricao4 {
+    left: 5px;
+    width: 550px;
+    position: relative;
+    top: 45px;
+    color: white;
+}
+
+.preminhos {
+    width: 727px;
+    height: 360px;
+    background-image: url("omg.webp");
+    margin: auto;
+    text-align: center;
+}
+
+.premiostitulos {
+    position: relative;
+    margin: auto;
+    top: 30px;
+    color: white;
+}
+
+.tablep {
+    position: relative;
+    top: 60px;
+    margin: auto;
+    height: 200px;
+    width: 330px;
+}
+
+.thpremios {
+    background-color: rgb(54, 51, 51);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.trpremios {
+    text-align: center;
+}
+
+.trpremios:nth-child(even) {
+    background-color: grey;
+}
+
+.trpremios:nth-child(odd) {
+    background-color: yellow;
+}
+
+.rodape {
+    width: 600px;
+    height: 30px;
+    background-image: url("listronas.avif");
+    margin: auto;
+    font-weight: bold;
+}
+
+.paragraforodape {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
